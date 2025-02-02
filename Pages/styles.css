@@ -1,0 +1,91 @@
+html {
+    background-color: white;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    font-size: 1.6rem;
+    color: rgb(120, 120, 255);
+}
+
+a:active {
+    color: purple;
+}
+
+ul {
+    list-style: none;
+}
+
+#dog {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10rem;
+    padding: 2rem;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* border: 1px solid green; */
+}
+
+header h1 {
+    width: 50%;
+}
+
+header nav {
+    width: 15%;
+    justify-content: right;
+    /* border: 1px solid green; */
+}
+
+nav ul {
+    justify-content: right;
+    /* border: 1px solid green; */
+}
+
+nav li {
+    justify-content: right;
+    font-size: 1.5rem;
+    /* border: 1px solid green; */
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .about {
+    width: 60%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+table {
+    width: 75%;
+    height: 25rem;
+    border: 1px solid black;
+}
+
+table th {
+    border-bottom: 2px solid black;
+}
+
+table td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
